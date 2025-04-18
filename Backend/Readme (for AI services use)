@@ -1,0 +1,29 @@
+Notes:
+
+    OCR Service (ocr_service.py):
+        Accepts two ID images (front and back) via POST /ocr.
+        Uses OpenCV and Tesseract to assess image quality (sharpness via Laplacian variance).
+        Returns a JSON with extracted fields and confidence score if readable, or a 400 error for poor quality (e.g., blurry images).
+        Simplified field extraction (name, idNumber) as a placeholder; actual implementation depends on ID format.
+        Logs response time to meet the < 3s requirement.
+    Face-Match Service (face_match_service.py):
+        Accepts a selfie, ID image, and user_id via POST /match.
+        Uses DeepFace for face verification, normalizing the distance score to 0-1.
+        Checks if the user is already registered (simulated with a set) and against a blacklist (placeholder file names).
+        Approves the selfie if the match score is ≥ 0.8 and passes registration/blacklist checks, adding the user_id to registered_users.
+        Returns a 400 error for issues like blacklisted users or detection failures.
+        Logs response time to meet the < 2s requirement.
+    Docker Setup:
+        The Dockerfile installs Tesseract and OpenCV dependencies and sets up the Python environment.
+        requirements.txt lists necessary Python libraries.
+        docker-compose.yml runs both services on ports 5001 (OCR) and 5002 (face-match).
+    Assumptions:
+        Blacklist images are stored in /blacklist/ (to be set up later).
+        User registration uses a simple set; in production, integrate with Hamza’s MongoDB.
+        Image quality assessment is basic; enhance with more checks (e.g., lighting, resolution) if needed.
+        DeepFace’s distance threshold (0.6) is tuned for normalization; adjust based on testing.
+    Testing:
+        Run docker-compose up --build to start both services.
+        Test with sample images (ensure IDs have readable text, selfies are clear).
+        Validate error handling (e.g., send blurry images or missing files).
+        Check response times in logs to ensure OCR < 3s and face-match < 2s.
