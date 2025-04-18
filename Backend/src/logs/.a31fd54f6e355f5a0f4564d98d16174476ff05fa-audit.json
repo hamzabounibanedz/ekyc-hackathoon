@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\User\\Desktop\\ekyc-hackathoon\\backend\\src\\logs\\.a31fd54f6e355f5a0f4564d98d16174476ff05fa-audit.json",
+    "files": [
+        {
+            "date": 1744989811591,
+            "name": "C:\\Users\\User\\Desktop\\ekyc-hackathoon\\backend\\src\\logs\\combined-2025-04-18.log",
+            "hash": "11e641c5a796d014291141896ab264267fa052207ede404eedfa3cf5c5c7422e"
+        }
+    ],
+    "hashType": "sha256"
+}
