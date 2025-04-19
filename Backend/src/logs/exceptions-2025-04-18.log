@@ -1,145 +1,96 @@
-2025-04-18 16:31:14 [[31merror[39m] Error: Cannot find module '../'
+2025-04-18 21:28:43 [[31merror[39m] Error: Cannot find module './env'
 Require stack:
-- C:\Users\User\ekyc-backend\backend\src\Auth\authMiddlewares.js
-- C:\Users\User\ekyc-backend\backend\src\Auth\authRoutes.js
-- C:\Users\User\ekyc-backend\backend\src\routes\index.js
-- C:\Users\User\ekyc-backend\backend\src\app.js
-- C:\Users\User\ekyc-backend\backend\src\server.js
+- C:\Users\User\Desktop\ekyc-hackathoon\backend\src\core\queue.js
+- C:\Users\User\Desktop\ekyc-hackathoon\backend\src\kyc\kycController.js
+- C:\Users\User\Desktop\ekyc-hackathoon\backend\src\kyc\kycRoutes.js
+- C:\Users\User\Desktop\ekyc-hackathoon\backend\src\routes\index.js
+- C:\Users\User\Desktop\ekyc-hackathoon\backend\src\app.js
+- C:\Users\User\Desktop\ekyc-hackathoon\backend\src\server.js
     at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
     at Module._load (node:internal/modules/cjs/loader:986:27)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
     at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (C:\Users\User\ekyc-backend\backend\src\Auth\authMiddlewares.js:3:14)
+    at Object.<anonymous> (C:\Users\User\Desktop\ekyc-hackathoon\backend\src\core\queue.js:2:20)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Module._load (node:internal/modules/cjs/loader:1024:12)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
     at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (C:\Users\User\ekyc-backend\backend\src\Auth\authRoutes.js:3:24)
+    at Object.<anonymous> (C:\Users\User\Desktop\ekyc-hackathoon\backend\src\kyc\kycController.js:3:22)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Module._load (node:internal/modules/cjs/loader:1024:12)
-2025-04-18 16:35:58 [[31merror[39m] ReferenceError: logger is not defined
-    at Object.<anonymous> (C:\Users\User\ekyc-backend\backend\src\user\userModel.js:166:1)
+2025-04-18 21:30:16 [[31merror[39m] Error: Cannot find module './env'
+Require stack:
+- C:\Users\User\Desktop\ekyc-hackathoon\backend\src\core\queue.js
+- C:\Users\User\Desktop\ekyc-hackathoon\backend\src\kyc\kycController.js
+- C:\Users\User\Desktop\ekyc-hackathoon\backend\src\kyc\kycRoutes.js
+- C:\Users\User\Desktop\ekyc-hackathoon\backend\src\routes\index.js
+- C:\Users\User\Desktop\ekyc-hackathoon\backend\src\app.js
+- C:\Users\User\Desktop\ekyc-hackathoon\backend\src\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\ekyc-hackathoon\backend\src\core\queue.js:2:20)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Module._load (node:internal/modules/cjs/loader:1024:12)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
     at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (C:\Users\User\ekyc-backend\backend\src\Auth\authRepository.js:2:14)
+    at Object.<anonymous> (C:\Users\User\Desktop\ekyc-hackathoon\backend\src\kyc\kycController.js:3:22)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
-2025-04-18 16:36:29 [[31merror[39m] ReferenceError: logger is not defined
-    at Object.<anonymous> (C:\Users\User\ekyc-backend\backend\src\user\userModel.js:178:1)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+2025-04-18 21:30:23 [[31merror[39m] Error: Cannot find module './env'
+Require stack:
+- C:\Users\User\Desktop\ekyc-hackathoon\backend\src\core\queue.js
+- C:\Users\User\Desktop\ekyc-hackathoon\backend\src\kyc\kycController.js
+- C:\Users\User\Desktop\ekyc-hackathoon\backend\src\kyc\kycRoutes.js
+- C:\Users\User\Desktop\ekyc-hackathoon\backend\src\routes\index.js
+- C:\Users\User\Desktop\ekyc-hackathoon\backend\src\app.js
+- C:\Users\User\Desktop\ekyc-hackathoon\backend\src\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\ekyc-hackathoon\backend\src\core\queue.js:2:20)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Module._load (node:internal/modules/cjs/loader:1024:12)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
     at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (C:\Users\User\ekyc-backend\backend\src\Auth\authRepository.js:2:14)
-    at Module._compile (node:internal/modules/cjs/loader:1358:14)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
-2025-04-18 16:39:11 [[31merror[39m] C:\Users\User\ekyc-backend\backend\src\Auth\authController.js:48
-});
-^
-
-SyntaxError: Unexpected token '}'
-    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
-    at Module._compile (node:internal/modules/cjs/loader:1321:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
-    at Module.load (node:internal/modules/cjs/loader:1208:32)
-    at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Module.require (node:internal/modules/cjs/loader:1233:19)
-    at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (C:\Users\User\ekyc-backend\backend\src\Auth\authRoutes.js:2:24)
-    at Module._compile (node:internal/modules/cjs/loader:1358:14)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
-2025-04-18 16:39:26 [[31merror[39m] Error: Route.get() requires a callback function but got a [object Undefined]
-    at Route.<computed> [as get] (C:\Users\User\ekyc-backend\backend\node_modules\express\lib\router\route.js:216:15)
-    at proto.<computed> [as get] (C:\Users\User\ekyc-backend\backend\node_modules\express\lib\router\index.js:521:19)
-    at Object.<anonymous> (C:\Users\User\ekyc-backend\backend\src\Auth\authRoutes.js:10:8)
+    at Object.<anonymous> (C:\Users\User\Desktop\ekyc-hackathoon\backend\src\kyc\kycController.js:3:22)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Module._load (node:internal/modules/cjs/loader:1024:12)
+2025-04-18 21:30:30 [[31merror[39m] Error: Cannot find module './env'
+Require stack:
+- C:\Users\User\Desktop\ekyc-hackathoon\backend\src\core\queue.js
+- C:\Users\User\Desktop\ekyc-hackathoon\backend\src\kyc\kycController.js
+- C:\Users\User\Desktop\ekyc-hackathoon\backend\src\kyc\kycRoutes.js
+- C:\Users\User\Desktop\ekyc-hackathoon\backend\src\routes\index.js
+- C:\Users\User\Desktop\ekyc-hackathoon\backend\src\app.js
+- C:\Users\User\Desktop\ekyc-hackathoon\backend\src\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
     at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (C:\Users\User\ekyc-backend\backend\src\routes\index.js:2:20)
+    at Object.<anonymous> (C:\Users\User\Desktop\ekyc-hackathoon\backend\src\core\queue.js:2:20)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Module._load (node:internal/modules/cjs/loader:1024:12)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
     at require (node:internal/modules/helpers:179:18)
-2025-04-18 16:43:51 [[31merror[39m] C:\Users\User\ekyc-backend\backend\src\core\Email.js:88
-  async sendEnrollmentConfirmation(service) { this.url = service; await this.send('enrollment', 'Confirmation d'inscription Trustly'); }
-                                                                                                ^^^^^^^^^^^^^^^^
-
-SyntaxError: missing ) after argument list
-    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
-    at Module._compile (node:internal/modules/cjs/loader:1321:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
-    at Module.load (node:internal/modules/cjs/loader:1208:32)
-    at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Module.require (node:internal/modules/cjs/loader:1233:19)
-    at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (C:\Users\User\ekyc-backend\backend\src\Auth\authController.js:7:15)
-    at Module._compile (node:internal/modules/cjs/loader:1358:14)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
-2025-04-18 16:44:39 [[31merror[39m] Error: Route.post() requires a callback function but got a [object Undefined]
-    at Route.<computed> [as post] (C:\Users\User\ekyc-backend\backend\node_modules\express\lib\router\route.js:216:15)
-    at proto.<computed> [as post] (C:\Users\User\ekyc-backend\backend\node_modules\express\lib\router\index.js:521:19)
-    at Object.<anonymous> (C:\Users\User\ekyc-backend\backend\src\Auth\authRoutes.js:11:8)
+    at Object.<anonymous> (C:\Users\User\Desktop\ekyc-hackathoon\backend\src\kyc\kycController.js:3:22)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Module.require (node:internal/modules/cjs/loader:1233:19)
-    at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (C:\Users\User\ekyc-backend\backend\src\routes\index.js:2:20)
-    at Module._compile (node:internal/modules/cjs/loader:1358:14)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
-    at Module.load (node:internal/modules/cjs/loader:1208:32)
-    at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Module.require (node:internal/modules/cjs/loader:1233:19)
-    at require (node:internal/modules/helpers:179:18)
-2025-04-18 16:58:00 [[31merror[39m] C:\Users\User\ekyc-backend\backend\src\Auth\authController.js:56
-    if (!user) return next(new AppError('User not found', 404));
-               ^^^^^^
-
-SyntaxError: Unexpected token 'return'
-    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
-    at Module._compile (node:internal/modules/cjs/loader:1321:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
-    at Module.load (node:internal/modules/cjs/loader:1208:32)
-    at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Module.require (node:internal/modules/cjs/loader:1233:19)
-    at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (C:\Users\User\ekyc-backend\backend\src\Auth\authRoutes.js:2:24)
-    at Module._compile (node:internal/modules/cjs/loader:1358:14)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
-2025-04-18 16:59:23 [[31merror[39m] C:\Users\User\ekyc-backend\backend\src\Auth\authRepository.js:23
-    if (!user) {
-               ^
-
-SyntaxError: Unexpected token '{'
-    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
-    at Module._compile (node:internal/modules/cjs/loader:1321:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
-    at Module.load (node:internal/modules/cjs/loader:1208:32)
-    at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Module.require (node:internal/modules/cjs/loader:1233:19)
-    at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (C:\Users\User\ekyc-backend\backend\src\Auth\authController.js:3:24)
-    at Module._compile (node:internal/modules/cjs/loader:1358:14)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
-2025-04-18 17:23:33 [[31merror[39m] Error: listen EADDRINUSE: address already in use :::3000
-    at Server.setupListenHandle [as _listen2] (node:net:1898:16)
-    at listenInCluster (node:net:1946:12)
-    at Server.listen (node:net:2044:7)
-    at C:\Users\User\Desktop\ekyc-hackathoon\backend\src\server.js:61:12
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

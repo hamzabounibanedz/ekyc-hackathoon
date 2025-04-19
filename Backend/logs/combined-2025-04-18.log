@@ -1,0 +1,120 @@
+2025-04-18 21:35:20 [[32minfo[39m] User model initialized with authentication and logging hooks
+2025-04-18 21:36:05 [[32minfo[39m] Hashing password for user 6802a9a5f5182bb86488b3c9
+2025-04-18 21:36:05 [[34mdebug[39m] Password hashed successfully for user 6802a9a5f5182bb86488b3c9
+2025-04-18 21:36:05 [[34mdebug[39m] No password change detected for user 6802a9a5f5182bb86488b3c9
+2025-04-18 21:36:05 [[34mdebug[39m] User updated: 6802a9a5f5182bb86488b3c9
+2025-04-18 21:36:05 [[32minfo[39m] New User document created
+2025-04-18 21:36:05 [[32minfo[39m] New user created: nabil@gmail.com
+2025-04-18 21:36:05 [[34mdebug[39m] Password not modified for user 6802a9a5f5182bb86488b3c9
+2025-04-18 21:36:05 [[34mdebug[39m] No password change detected for user 6802a9a5f5182bb86488b3c9
+2025-04-18 21:36:05 [[34mdebug[39m] User updated: 6802a9a5f5182bb86488b3c9
+2025-04-18 21:36:05 [[34mdebug[39m] User saved: nabil@gmail.com
+2025-04-18 21:36:07 [[32minfo[39m] OTP sent to nabil@gmail.com
+2025-04-18 21:36:07 [[32minfo[39m] [32m201[0m POST /signup
+2025-04-18 21:36:25 [[34mdebug[39m] Password not modified for user 6802a9a5f5182bb86488b3c9
+2025-04-18 21:36:25 [[34mdebug[39m] No password change detected for user 6802a9a5f5182bb86488b3c9
+2025-04-18 21:36:25 [[34mdebug[39m] User updated: 6802a9a5f5182bb86488b3c9
+2025-04-18 21:36:27 [[32minfo[39m] User nabil@gmail.com verified via OTP
+2025-04-18 21:36:27 [[34mdebug[39m] Access token generated successfully
+2025-04-18 21:36:27 [[34mdebug[39m] Refresh token generated successfully
+2025-04-18 21:36:27 [[32minfo[39m] Authentication tokens generated for 6802a9a5f5182bb86488b3c9 (undefined)
+2025-04-18 21:36:27 [[32minfo[39m] [32m200[0m POST /verify-otp
+2025-04-18 21:43:38 [[34mdebug[39m] Verifying JWT token
+2025-04-18 21:43:38 [[34mdebug[39m] Token verified successfully
+2025-04-18 21:43:38 [[34mdebug[39m] Checking password change status for user 6802a9a5f5182bb86488b3c9
+2025-04-18 21:43:38 [[32minfo[39m] User 6802a9a5f5182bb86488b3c9 (undefined) granted access
+2025-04-18 21:43:38 [[32minfo[39m] [31m500[0m POST /submit
+2025-04-18 22:21:24 [[32minfo[39m] User model initialized with authentication and logging hooks
+2025-04-18 22:21:29 [[34mdebug[39m] Verifying JWT token
+2025-04-18 22:21:29 [[34mdebug[39m] Token verified successfully
+2025-04-18 22:21:29 [[34mdebug[39m] Checking password change status for user 6802a9a5f5182bb86488b3c9
+2025-04-18 22:21:29 [[32minfo[39m] User 6802a9a5f5182bb86488b3c9 (undefined) granted access
+2025-04-18 22:22:10 [[32minfo[39m] [0m POST /submit
+2025-04-18 22:25:17 [[31merror[39m] MaxRetriesPerRequestError: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+    at Socket.<anonymous> (C:\Users\User\Desktop\ekyc-hackathoon\Backend\node_modules\ioredis\built\redis\event_handler.js:182:37)
+    at Object.onceWrapper (node:events:634:26)
+    at Socket.emit (node:events:519:28)
+    at TCP.<anonymous> (node:net:338:12)
+2025-04-18 22:25:43 [[32minfo[39m] User model initialized with authentication and logging hooks
+2025-04-18 22:28:00 [[32minfo[39m] User model initialized with authentication and logging hooks
+2025-04-18 22:28:17 [[34mdebug[39m] Verifying JWT token
+2025-04-18 22:28:17 [[34mdebug[39m] Token verified successfully
+2025-04-18 22:28:17 [[34mdebug[39m] Checking password change status for user 6802a9a5f5182bb86488b3c9
+2025-04-18 22:28:17 [[32minfo[39m] User 6802a9a5f5182bb86488b3c9 (undefined) granted access
+2025-04-18 22:28:17 [[32minfo[39m] [31m500[0m POST /submit
+2025-04-18 22:32:27 [[32minfo[39m] User model initialized with authentication and logging hooks
+2025-04-18 22:32:55 [[34mdebug[39m] Initiating password validation for user 6802a9a5f5182bb86488b3c9
+2025-04-18 22:32:55 [[34mdebug[39m] Password validation result for user 6802a9a5f5182bb86488b3c9: true
+2025-04-18 22:32:56 [[34mdebug[39m] Password not modified for user 6802a9a5f5182bb86488b3c9
+2025-04-18 22:32:56 [[34mdebug[39m] No password change detected for user 6802a9a5f5182bb86488b3c9
+2025-04-18 22:32:56 [[34mdebug[39m] User updated: 6802a9a5f5182bb86488b3c9
+2025-04-18 22:32:56 [[34mdebug[39m] User saved: nabil@gmail.com
+2025-04-18 22:32:56 [[32minfo[39m] Successful login for nabil@gmail.com
+2025-04-18 22:32:56 [[34mdebug[39m] Access token generated successfully
+2025-04-18 22:32:56 [[34mdebug[39m] Refresh token generated successfully
+2025-04-18 22:32:56 [[32minfo[39m] Authentication tokens generated for 6802a9a5f5182bb86488b3c9 (undefined)
+2025-04-18 22:32:56 [[32minfo[39m] [32m200[0m POST /login
+2025-04-18 22:33:16 [[34mdebug[39m] Verifying JWT token
+2025-04-18 22:33:16 [[34mdebug[39m] Token verified successfully
+2025-04-18 22:33:16 [[34mdebug[39m] Checking password change status for user 6802a9a5f5182bb86488b3c9
+2025-04-18 22:33:16 [[32minfo[39m] User 6802a9a5f5182bb86488b3c9 (undefined) granted access
+2025-04-18 22:33:17 [[32minfo[39m] [32m202[0m POST /submit
+2025-04-18 22:40:57 [[32minfo[39m] User model initialized with authentication and logging hooks
+2025-04-18 22:41:02 [[32minfo[39m] User model initialized with authentication and logging hooks
+2025-04-18 22:43:08 [[32minfo[39m] User model initialized with authentication and logging hooks
+2025-04-18 22:43:22 [[32minfo[39m] User model initialized with authentication and logging hooks
+2025-04-18 22:48:21 [[32minfo[39m] User model initialized with authentication and logging hooks
+2025-04-18 22:51:06 [[34mdebug[39m] Verifying JWT token
+2025-04-18 22:51:06 [[31merror[39m] JsonWebTokenError: jwt malformed
+    at module.exports (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\jsonwebtoken\verify.js:70:17)
+    at node:internal/util:430:7
+    at new Promise (<anonymous>)
+    at node:internal/util:416:12
+    at verifyToken (C:\Users\User\Desktop\ekyc-hackathoon\backend\src\core\JWT.js:63:48)
+    at C:\Users\User\Desktop\ekyc-hackathoon\backend\src\Auth\authMiddlewares.js:31:27
+    at C:\Users\User\Desktop\ekyc-hackathoon\backend\src\middlewares\catchAsync.js:3:7
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:328:13)
+2025-04-18 22:51:06 [[31merror[39m] Token verification failed: Invalid or expired token
+2025-04-18 22:51:06 [[32minfo[39m] [33m401[0m POST /api/v1/kyc/submit
+2025-04-18 22:51:25 [[34mdebug[39m] Initiating password validation for user 6802a9a5f5182bb86488b3c9
+2025-04-18 22:51:25 [[34mdebug[39m] Password validation result for user 6802a9a5f5182bb86488b3c9: true
+2025-04-18 22:51:25 [[34mdebug[39m] Password not modified for user 6802a9a5f5182bb86488b3c9
+2025-04-18 22:51:25 [[34mdebug[39m] No password change detected for user 6802a9a5f5182bb86488b3c9
+2025-04-18 22:51:25 [[34mdebug[39m] User updated: 6802a9a5f5182bb86488b3c9
+2025-04-18 22:51:25 [[34mdebug[39m] User saved: nabil@gmail.com
+2025-04-18 22:51:25 [[32minfo[39m] Successful login for nabil@gmail.com
+2025-04-18 22:51:25 [[34mdebug[39m] Access token generated successfully
+2025-04-18 22:51:25 [[34mdebug[39m] Refresh token generated successfully
+2025-04-18 22:51:25 [[32minfo[39m] Authentication tokens generated for 6802a9a5f5182bb86488b3c9 (undefined)
+2025-04-18 22:51:25 [[32minfo[39m] [32m200[0m POST /login
+2025-04-18 22:51:31 [[34mdebug[39m] Verifying JWT token
+2025-04-18 22:51:31 [[31merror[39m] JsonWebTokenError: jwt malformed
+    at module.exports (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\jsonwebtoken\verify.js:70:17)
+    at node:internal/util:430:7
+    at new Promise (<anonymous>)
+    at node:internal/util:416:12
+    at verifyToken (C:\Users\User\Desktop\ekyc-hackathoon\backend\src\core\JWT.js:63:48)
+    at C:\Users\User\Desktop\ekyc-hackathoon\backend\src\Auth\authMiddlewares.js:31:27
+    at C:\Users\User\Desktop\ekyc-hackathoon\backend\src\middlewares\catchAsync.js:3:7
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:328:13)
+2025-04-18 22:51:31 [[31merror[39m] Token verification failed: Invalid or expired token
+2025-04-18 22:51:31 [[32minfo[39m] [33m401[0m POST /api/v1/kyc/submit
+2025-04-18 23:46:33 [[32minfo[39m] User model initialized with authentication and logging hooks
+2025-04-18 23:49:06 [[32minfo[39m] User model initialized with authentication and logging hooks
+2025-04-18 23:58:50 [[32minfo[39m] User model initialized with authentication and logging hooks

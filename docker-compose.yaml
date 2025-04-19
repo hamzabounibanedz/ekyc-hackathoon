@@ -1,0 +1,25 @@
+version: '3.8'
+services:
+  redis:
+    image: redis:7-alpine
+    command: ["redis-server", "--save", "", "--appendonly", "no"]
+    ports: ["6379:6379"]
+
+  ocr_service:
+    build: { context: ./ai, dockerfile: Dockerfile }
+    volumes: ["./ai:/app"]
+    ports: ["5001:5001"]
+    environment: ["PYTHONUNBUFFERED=1"]
+
+  face_match_service:
+    build: { context: ./ai, dockerfile: Dockerfile }
+    command: ["python", "face_match_service.py"]
+    volumes: ["./ai:/app"]
+    ports: ["5002:5002"]
+    environment: ["PYTHONUNBUFFERED=1"]
+
+  backend:
+    build: { context: ./backend, dockerfile: Dockerfile }
+    env_file: ["./backend/.env"]
+    ports: ["3001:3000"]
+    depends_on: [redis, ocr_service, face_match_service]

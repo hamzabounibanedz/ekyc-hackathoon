@@ -1,0 +1,41 @@
+2025-04-18 22:25:17 [[31merror[39m] MaxRetriesPerRequestError: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details.
+    at Socket.<anonymous> (C:\Users\User\Desktop\ekyc-hackathoon\Backend\node_modules\ioredis\built\redis\event_handler.js:182:37)
+    at Object.onceWrapper (node:events:634:26)
+    at Socket.emit (node:events:519:28)
+    at TCP.<anonymous> (node:net:338:12)
+2025-04-18 22:51:06 [[31merror[39m] JsonWebTokenError: jwt malformed
+    at module.exports (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\jsonwebtoken\verify.js:70:17)
+    at node:internal/util:430:7
+    at new Promise (<anonymous>)
+    at node:internal/util:416:12
+    at verifyToken (C:\Users\User\Desktop\ekyc-hackathoon\backend\src\core\JWT.js:63:48)
+    at C:\Users\User\Desktop\ekyc-hackathoon\backend\src\Auth\authMiddlewares.js:31:27
+    at C:\Users\User\Desktop\ekyc-hackathoon\backend\src\middlewares\catchAsync.js:3:7
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:328:13)
+2025-04-18 22:51:06 [[31merror[39m] Token verification failed: Invalid or expired token
+2025-04-18 22:51:31 [[31merror[39m] JsonWebTokenError: jwt malformed
+    at module.exports (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\jsonwebtoken\verify.js:70:17)
+    at node:internal/util:430:7
+    at new Promise (<anonymous>)
+    at node:internal/util:416:12
+    at verifyToken (C:\Users\User\Desktop\ekyc-hackathoon\backend\src\core\JWT.js:63:48)
+    at C:\Users\User\Desktop\ekyc-hackathoon\backend\src\Auth\authMiddlewares.js:31:27
+    at C:\Users\User\Desktop\ekyc-hackathoon\backend\src\middlewares\catchAsync.js:3:7
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:328:13)
+2025-04-18 22:51:31 [[31merror[39m] Token verification failed: Invalid or expired token

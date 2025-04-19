@@ -6,9 +6,9 @@
     "auditLog": "C:\\Users\\User\\Desktop\\ekyc-hackathoon\\backend\\src\\logs\\.31dd2831c8038fe8e972f4ca00246dd189522d20-audit.json",
     "files": [
         {
-            "date": 1744989811594,
+            "date": 1745004522279,
             "name": "C:\\Users\\User\\Desktop\\ekyc-hackathoon\\backend\\src\\logs\\exceptions-2025-04-18.log",
-            "hash": "6ef9a50201a305329ec89e1bb25a7c40b8c0b6ff1e3a90a6f74aabba154790e0"
+            "hash": "5d271a230b0af54ffca529b4281caa669c63c7e31cdcb46c6910c08a151eec62"
         }
     ],
     "hashType": "sha256"

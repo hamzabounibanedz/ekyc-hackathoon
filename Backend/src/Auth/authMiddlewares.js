@@ -9,7 +9,7 @@ const logger = require('../core/logger');
 exports.protect = catchAsync(async (req, res, next) => {
   let token;
 
-  // 1) Get the token from headers or cookies
+  // 1) Get the token from headers or cookiesq    
   if (req.headers.authorization && req.headers.authorization.startsWith("Bearer")) {
     token = req.headers.authorization.split(" ")[1]; // Extract token after 'Bearer'
 

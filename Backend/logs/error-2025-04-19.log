@@ -1,0 +1,36 @@
+2025-04-19 00:07:09 [[31merror[39m] JsonWebTokenError: jwt malformed
+    at module.exports (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\jsonwebtoken\verify.js:70:17)
+    at node:internal/util:430:7
+    at new Promise (<anonymous>)
+    at node:internal/util:416:12
+    at verifyToken (C:\Users\User\Desktop\ekyc-hackathoon\backend\src\core\JWT.js:63:48)
+    at C:\Users\User\Desktop\ekyc-hackathoon\backend\src\Auth\authMiddlewares.js:31:27
+    at C:\Users\User\Desktop\ekyc-hackathoon\backend\src\middlewares\catchAsync.js:3:7
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:328:13)
+2025-04-19 00:07:09 [[31merror[39m] Token verification failed: Invalid or expired token
+2025-04-19 01:36:00 [[31merror[39m] JsonWebTokenError: jwt malformed
+    at module.exports (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\jsonwebtoken\verify.js:70:17)
+    at node:internal/util:430:7
+    at new Promise (<anonymous>)
+    at node:internal/util:416:12
+    at verifyToken (C:\Users\User\Desktop\ekyc-hackathoon\backend\src\core\JWT.js:63:48)
+    at C:\Users\User\Desktop\ekyc-hackathoon\backend\src\Auth\authMiddlewares.js:31:27
+    at C:\Users\User\Desktop\ekyc-hackathoon\backend\src\middlewares\catchAsync.js:3:7
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\ekyc-hackathoon\backend\node_modules\express\lib\router\index.js:328:13)
+2025-04-19 01:36:00 [[31merror[39m] Token verification failed: Invalid or expired token

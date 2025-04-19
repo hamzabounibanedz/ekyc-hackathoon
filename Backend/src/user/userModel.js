@@ -16,7 +16,14 @@ const userSchema = new mongoose.Schema({
   // --- OTP fields ---
   otpCode: String,
   otpExpires: Date,
-
+  kycStatus: {
+        type: String,
+        enum: ['not_started','pending','needs_review','approved'],
+        default: 'not_started'
+      },
+  kycJob: { type: mongoose.Schema.Types.ObjectId, ref: 'KycJob' },
+  kycCid: String,
+  kycTxHash: String,
   // existing fields:
   tokenVersion: { type: Number, default: 0 },
   passwordChangedAt: Date,

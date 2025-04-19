@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\User\\Desktop\\ekyc-hackathoon\\Backend\\logs\\.2336256db3a55e1c224fe88abce8258ae2d54933-audit.json",
+    "files": [
+        {
+            "date": 1745004920296,
+            "name": "C:\\Users\\User\\Desktop\\ekyc-hackathoon\\Backend\\logs\\combined-2025-04-18.log",
+            "hash": "7a079ec235dd760d01fa2b0712c99735d2dd58b778842ab9edd3a21f17c7455f"
+        },
+        {
+            "date": 1745024969519,
+            "name": "C:\\Users\\User\\Desktop\\ekyc-hackathoon\\Backend\\logs\\combined-2025-04-19.log",
+            "hash": "ea537e84b94cb69e94d2a67737cadbaa2892f2c4b6d2aff3ec6024174f0fd38c"
+        }
+    ],
+    "hashType": "sha256"
+}
